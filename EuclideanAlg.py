@@ -5,7 +5,7 @@
 import math
 
 def Euclidean(a, b):
-    if int(a) != a or int(b) != b:
+    if int(a) != a or int(b) != b or a == 0 or b == 0:
         nope = "Question wrongly put"
         return nope
     # Trivial case, if a and b are equal.
@@ -30,7 +30,10 @@ def Euclidean(a, b):
     return "The GCD of " + str(int(a)) + " and " +str(int(b)) + " is " + str(int(r2))
 
 
-print(Euclidean(15,20))
+#print(Euclidean(15,20))
 
-    
+#a = 2**63
+#b = a*a
+#print(b)
 
+print(Euclidean(-0, 0))
