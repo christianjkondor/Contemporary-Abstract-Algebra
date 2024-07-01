@@ -1,3 +1,7 @@
+# Euclidean Algorithm Implementation
+# 1 July 2024 || Christian Kondor
+# Ref: Contemporary Abstract Algebra (Gallian, 6e) pg. 6
+
 import math
 
 def Euclidean(a, b):
